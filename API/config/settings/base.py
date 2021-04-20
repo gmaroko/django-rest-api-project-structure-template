@@ -38,9 +38,12 @@ DJANGO_APPS = [
 
 THIRD_PARTY_APPS = [
     # third party apps that we will install as dependencies e.g restframework
+    'rest_framework',
+    'drf_yasg',
 ]
+
 LOCAL_APPS = [
-    # apps that you create
+    'API.apps.authentication',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS

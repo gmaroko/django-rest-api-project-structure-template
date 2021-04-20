@@ -1,9 +1,9 @@
-from django.urls import path
-from API.apps.authentication.views import UserLogin
+from django.urls import path, include
+from API.apps.authentication.views import RegisterUser
 
-app_name = "authentication"
+
+app_name = 'API.apps.authentication'
 
 urlpatterns = [
-    # endpoint routes
-    path('login/', UserLogin.as_view(), name='user_login'),
+    path('register/', RegisterUser.as_view(), name='register_user'),
 ]
