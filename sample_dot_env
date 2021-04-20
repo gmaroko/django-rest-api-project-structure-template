@@ -1,0 +1,7 @@
+ENV_MODE='dev'  # change to production
+DJANGO_SETTINGS_MODULE='API.config.settings.local'
+DJANGO_DEBUG=True
+DATABASE_URL='postgresql://localhost/db_name?user=username&password=password'
+SECRET_KEY= <super_secret_key>
+APP_BASE_URL=<app_url> # example http://127.0.0.1:8000/ for local development
+DJANGO_READ_DOT_ENV_FILE='False'
