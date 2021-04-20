@@ -4,7 +4,7 @@ A sample project structure template for Django RESTful API with  Boilerplate Aut
 
 # project structure 
 
-![Project Structre](./structure.png)
+![Project Structre](structure.png)
 
 # requirements
  - see requirements.txt file
